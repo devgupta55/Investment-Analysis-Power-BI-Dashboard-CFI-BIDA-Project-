@@ -27,7 +27,7 @@ The dashboard utilizes data from the following sources:
 
 ### Data Model
 
-The data model is structured as a star schema, with `factActivity` as the central fact table linked to the dimension tables (`dimDate`, `dimSecurity`, and `dimExchange`). The relationships are one-to-many from the dimension tables to the fact table.
+The data model is structured as a star schema, with `factActivity` as the central fact table linked to the dimension tables (`dimDate`, `dimSecurity`, and `dimExchange`). The relationships are one-to-many from the dimension tables to the fact table.<br>
 <img src="https://github.com/user-attachments/assets/a2cbd465-d4c3-420f-ae16-eab8edfb2385" width="600">
 
 ### Overview of Datasets
